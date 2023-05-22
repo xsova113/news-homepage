@@ -17,13 +17,13 @@ const Nav: React.FC<navItemsProps> = ({ isOpen, setIsOpen }) => {
       <div className="absolute sm:mr-20 right-0 sm:top-[100px] top-[80px]">
         <div
           className={clsx(
-            "flex flex-col bg-white pt-16 sm:px-8 px-20 -mr-4 -mt-20",
+            "flex flex-col bg-[#FFFDFA] pt-16 sm:px-8 px-20 -mr-4 -mt-20",
             isOpen && "shadow-2xl h-screen"
           )}
         >
           <div className="hidden sm:flex md:gap-8 gap-4 text-sm md:text-[15px] transition-all">
             {navItems.map((item) => (
-              <p key={item} className={`text-15px text-[#00001A] cursor-pointer`}>
+              <p key={item} className={`text-15px text-[#00001A] hover:text-[#F15E50] cursor-pointer`}>
                 {item}
               </p>
             ))}
@@ -59,7 +59,7 @@ const Nav: React.FC<navItemsProps> = ({ isOpen, setIsOpen }) => {
                     {navItems.map((item) => (
                       <p
                         key={item}
-                        className={`text-15px text-[#00001A] cursor-pointer -ml-10 pr-5`}
+                        className={`text-15px text-[#00001A] hover:text-[#F15E50] cursor-pointer -ml-10 pr-5`}
                       >
                         {item}
                       </p>

@@ -1,6 +1,6 @@
 const SecondContent = () => {
   return (
-    <div className="flex flex-col bg-[#00001A] text-white mt-14 sm:mt-7 sm:ml-6 p-7 sm:min-w-[400px]">
+    <div className="flex flex-col bg-[#00001A] text-white mt-14 sm:mt-7 sm:ml-6 p-7 sm:min-w-[400px] sm:max-w-[400px]">
       <h1 className="text-[#FFCE8A] text-3xl mb-6 font-semibold">New</h1>
 
       <div>

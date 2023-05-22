@@ -13,7 +13,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-screen h-full sm:py-10 sm:px-24 p-4">
+    <div className="w-screen h-full sm:py-10 sm:px-24 p-4 bg-[#FFFDFA]">
       <div className="flex flex-col">
         {/* Gray background color on open menu */}
         {isOpen && (
